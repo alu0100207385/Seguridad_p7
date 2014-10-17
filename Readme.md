@@ -37,18 +37,21 @@ Para ejecutar en Linux:
     ./rsa (o nombre de salida escogido)
     Introduzca ./rsa nombre_fichero
     Se adjunto fichero de prueba input01
-    
 ```
 
 ##Ejemplos
 
 Texto a cifrar: MANDA DINEROS, y los parámetros p=421, q=7 y d=1619:
+
     - comprueba que p y q son primos, que d es primo con φ (n)=2520 y calcula el parámetro e=179,
-    + como n = 2947, divide el texto en bloques de 2 caracteres, pasa cada bloque a decimal para operar, obteniendo 312, 341, 3, 221, 121, 382, y calcula los números correspondientes al cifrado: 2704, 2173, 404, 2340, 1789, 2333
+    
+    - como n = 2947, divide el texto en bloques de 2 caracteres, pasa cada bloque a decimal para operar, obteniendo 312, 341, 3, 221, 121, 382, y calcula los números correspondientes al cifrado: 2704, 2173, 404, 2340, 1789, 2333
 
 Texto a cifrar: AMIGO MIO, y los parámetros p=2347, q=347 y d=5:
+
     - comprueba que p y q son primos, que d es primo con φ (n)= 811716 y calcula el parámetro e= 649373,
-    + como n=814.409, divide el texto en bloques de 4 caracteres, pasa el bloque a decimal, obteniendo 8326, 254398, y calcula los números correspondientes al cifrado: 587813, 526359
+    
+    - como n=814.409, divide el texto en bloques de 4 caracteres, pasa el bloque a decimal, obteniendo 8326, 254398, y calcula los números correspondientes al cifrado: 587813, 526359
 
     
 --------------------------------------------------------------------------
